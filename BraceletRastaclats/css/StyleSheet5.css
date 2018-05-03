@@ -1,0 +1,171 @@
+﻿html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #919191;
+    background-image: url('../Images/lightbrown.jpg');
+    padding: 20px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3;
+    width: auto;
+    background-attachment: fixed;
+}
+
+a{outline:none; text-decoration:none;}
+
+p{color:#ffffff;}
+
+h2 {
+    text-shadow: 1px 1px 1px black;
+    color:#302D2D;
+}
+
+
+
+/*--------------------------------------------wrapper---------------------------------------------*/
+
+.row1, .row1 a{color:#ffffff; background-color:#302D2D;}
+
+
+
+
+/*--------------------------------------------content---------------------------------------------*/
+
+
+#Contents {
+    padding: 30px;
+    margin-left: 180px;
+    width: 900px;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    box-shadow: 3px 3px 1px black;
+    background-image: url('../Images/content4.png');
+     background-repeat: no-repeat;
+}
+
+
+/*------------------------------------------head section------------------------------------------*/
+
+
+#header {
+    padding: 10px;
+    height:40px;
+    background-image: url('../Images/backer.jpg');
+    background-repeat: no-repeat;
+}
+
+#woodsculpture {
+
+   float:left;
+    width: 582px;
+}
+
+nav {
+    float: right;  
+}
+    nav ul li a {
+        background-image: url('../Images/backer.jpg');
+        }
+
+ nav li{display:inline; margin-right:15px; text-transform:uppercase;}
+
+
+    nav ul a:hover {
+        color: #ff0000;
+    }
+
+ /*---------------------------------------AboutUS Section----------------------------------------*/
+
+ #contactcontent{
+     
+     padding:10px;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
+     height:400px;
+     box-shadow: 1px 1px 1px black;
+ 
+ }
+
+ #mapcontent {
+     float:left;
+ }
+
+ #map {
+     height:320px;
+     width:400px;
+ }
+
+ #contcontent {
+    margin-left:100px;
+ }
+
+
+ /*------------------------------------------Default Page----------------------------------------*/
+
+ #repeater{
+     border-top: 1px solid black;
+     border-bottom:1px solid black;
+    padding:20px;
+    margin-left:30px;
+ }
+
+ #logo {
+    height:150px;
+    width:600px;
+    margin-left:100px;
+     
+}
+
+
+/*-------------------------------------------Register Page----------------------------------------*/
+
+#registercontain {
+
+    border:1px solid black;
+    height:150px;
+    width:300px;
+    margin-left:290px;
+    padding:10px;
+}
+
+#newaccount {
+    margin-left:390px;
+}
+
+
+ 
+
+
+/*--------------------------------------------Footer----------------------------------------------*/
+
+#footer {
+    padding: 20px;
+    margin-top: 30px;
+    height: auto;
+  
+    background-color:black;
+    background-repeat: no-repeat;
+    width:auto;
+}
+#footer p{margin:0; padding:0;}
+
+#address{
+    width:202px;
+    margin-left:50px;
+    height: 35px;
+}
+
+#socialicon {
+    
+}
+
+#ProductImage {
+    height:100px;
+    width:100px;
+}

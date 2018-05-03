@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="BraceletRastaclats.masterpage" %>
+
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    
+<head runat="server">
+    <title>Wood Sculpture</title>
+    <link href="css/StyleSheet5.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+
+<body runat="server">
+    
+        
+   
+    
+        
+  <div class="wrapper row1">
+    <div id="woodsculpture">
+      <h1><a href="Default.aspx">
+          Wood Sculpture </a></h1>
+        
+    </div>
+    
+        <header id="header">
+    
+    <nav>
+      <ul>
+        <li><a href="Default.aspx">Home <asp:Image runat="server" ImageUrl="Images/Icon/home.png" width='15' height='13' style='padding-left:4px;' /></a></li>
+        <li><a href="AboutUs.aspx">Contact Us<asp:Image runat="server" ImageUrl="Images/Icon/contactus_icon.png" width='15' height='13' style='padding-left:4px;' /></a></li>
+        <li><a href="SignIn.aspx">Account<asp:Image runat="server" ImageUrl="Images/Icon/man-grey.png" width='15' height='13' style='padding-left:4px;' /></a></li>
+        <li><a href="Register.aspx">Register<asp:Image runat="server" ImageUrl="Images/Icon/register.png" width='15' height='13' style='padding-left:4px;' /></a></li>
+      </ul>
+    </nav>
+  </header>
+
+            </div>
+
+
+    
+
+
+
+
+        <div id="Contents">
+        <asp:ContentPlaceHolder ID="content" runat="server">
+      
+        </asp:ContentPlaceHolder>
+        </div>
+
+
+
+
+
+<footer id="footer">
+
+
+                
+                    <div id="socialicon">
+                        <section>
+                        
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+
+
+                    </section>
+    </div>
+                   <p>+673 2790526
+
+Plaza Abdul Razak Jalan Laksamana Abdul Razak Bandar Seri Begawan BA 1712 Email: hjaiman1105@gmail.com</p> 
+                
+    
+ 
+    
+
+
+</footer>
+  
+    
+    
+    
+    
+     
+ 
+  
+    
+    
+    
+    
+     
+</body>
+</html>
